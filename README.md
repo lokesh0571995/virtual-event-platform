@@ -56,25 +56,17 @@ Steps
 
 Clone the repository:
 
-    1. bash
-    2. Copy code
-    3. git clone https://github.com/lokesh0571995/virtual-event-platform.git
-    4. cd virtual-event-platform
+    1. git clone https://github.com/lokesh0571995/virtual-event-platform.git
+    2. cd virtual-event-platform
 
 
 Install dependencies:
 
-    1. bash
-    2. Copy code
-    3. npm install
+    1. npm install
 
 Set up environment variables:
 
     1. Create a .env file in the root directory with the following content:
-
-plaintext
-
-Copy code
 
     PORT=5000
     MONGODB_URI=mongodb://localhost:27017/virtual-event-platform
@@ -87,16 +79,12 @@ Copy code
 
 Run the application:
 
-    1. bash
-    2. Copy code
-    3. npm start
-    4. The server should start on http://localhost:5000.
+    1. npm start
+    2. The server should start on http://localhost:5000.
 
 Run tests:
 
-    1. bash
-    2. Copy code
-    3. npm run test
+    1. npm run test
 
 This will run both unit and integration tests using Mocha and Chai.
 
@@ -128,9 +116,7 @@ Running Tests
 
 To run the tests, use:
 
-    1. bash
-    2. Copy code
-    3. npm run test
+    1. npm run test
 
 Test Structure
 
@@ -138,8 +124,6 @@ Test Structure
     2. Integration Tests: Located in test/integration, focusing on the interaction between different parts of the system.
 
 Development Guidelines
-
-    Code Style
 
     1. Follow JavaScript Standard Style.
     2. Use async/await for handling asynchronous operations.
